@@ -2,9 +2,7 @@
 ---
 
 
-
 &nbsp;
-
 
 
 - [Gerenciamento do Winget](#Gerenciamento-do-Winget)
@@ -14,15 +12,10 @@
 - [Chat e Comunicação](#Chat-e-Comunicação)
 
 
-
-
-
 &nbsp;
 
 
-
 ---
-
 
 
 &nbsp;
