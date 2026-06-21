@@ -1,5 +1,34 @@
-# Instalando aplicativos Windows
-### Winget Management
+
+---
+
+
+
+&nbsp;
+
+
+
+- [Gerenciamento do Winget](#Gerenciamento-do-Winget)
+- [Aplicativos essenciais](#Aplicativos-essenciais)
+- [Runtimes](#Runtimes)
+- [Dev](#Dev)
+- [Chat e Comunicação](#Chat-e-Comunicação)
+
+
+
+
+
+&nbsp;
+
+
+
+---
+
+
+
+&nbsp;
+
+
+### Gerenciamento do Winget
 ```shell
 winget install
 winget uninstall
@@ -23,7 +52,7 @@ winget upgrade --all --accept-source-agreements
 
 ---
 
-### Essential APPs in Winget
+### Aplicativos essenciais
 ```shell
 winget install --id=Microsoft.PowerShell -e --accept-package-agreements --accept-source-agreements ;
 winget install --id=Microsoft.WindowsTerminal -e --accept-package-agreements --accept-source-agreements ;
@@ -62,7 +91,7 @@ winget install --id=WinSCP.WinSCP -e --accept-package-agreements --accept-source
 
 ---
 
-### Runtimes in Winget
+### Runtimes
 ```shell
 winget install --id=Microsoft.DotNet.Framework.DeveloperPack_4 -e --accept-package-agreements --accept-source-agreements ;
 winget install --id=Microsoft.DotNet.Framework.DeveloperPack.4.5 -e --accept-package-agreements --accept-source-agreements ;
@@ -88,7 +117,7 @@ winget install --id=Oracle.JavaRuntimeEnvironment -e --accept-package-agreements
 
 ---
 
-### Dev in Winget
+### Dev
 ```shell
 winget install --id=Microsoft.VisualStudioCode -e --accept-package-agreements --accept-source-agreements ;
 winget install --id=Microsoft.VisualStudio.2022.Community -e --accept-package-agreements --accept-source-agreements ;
@@ -102,7 +131,7 @@ winget install --id=Notepad++.Notepad++ -e --accept-package-agreements --accept-
 
 ---
 
-### Chat Communication in Winget
+### Chat e Comunicação
 ```shell
 winget install --id=Discord.Discord -e --accept-package-agreements --accept-source-agreements ;
 winget install --id=Telegram.TelegramDesktop -e --accept-package-agreements --accept-source-agreements ;
